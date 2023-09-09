@@ -1,1 +1,55 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font: "Inter var";
+  --accent-font: "PressStart2P";
+  --card__text-weight_theme-light: 400;
+  --card__title-weight_theme-light: 700;
+  --card__text-weight_theme-dark: 465;
+  --card__title-weight_theme-dark: 785;
+  --background-color: #fff;
+  --accent-color: #000;
+  --text-color: #000;
+  --stroke-color-light: #000;
+  --stroke-color-dark: #fff;
+  --text-color-light: #fff;
+  --bg-color-light: #fff;
+  --bg-color-dark: #000;
+
+  --heart-red-color: #ff0000;
+  --heart-contour-color: #00cc14;
+
+  --background-image-light: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(0deg, #1a1a1a 0.01%, #e7e7e7 100%);
+}
+
+:root.theme-dark {
+  --background-image-dark: repeating-linear-gradient(
+      90deg,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(0deg, #004306, #007f0c 100%);
+}
