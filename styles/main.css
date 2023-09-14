@@ -1,0 +1,15 @@
+@import "./globals.css";
+@import "./animations.css";
+@import "./variables.css";
+@import "./themes.css";
+@import "./common.css";
+
+/* components */
+@import "./components/container.css";
+@import "./components/header.css";
+@import "./components/theme-menu.css";
+@import "./components/card.css";
+@import "./components/button.css";
+@import "./components/icon-button.css";
+@import "./components/dialog.css";
+

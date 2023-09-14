@@ -1,0 +1,9 @@
+body {
+  background-image: var(--background-image);
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--accent-color);
+  font-family: var(--main-font), Arial, Helvetica, sans-serif;
+  font-variation-settings: "wght" var(--card-text-weight);
+  padding-bottom: 102px;
+}
