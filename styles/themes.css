@@ -3,12 +3,8 @@
   --accent-color: #000;
   --background-image: var(--background-image-light);
   --watermark-stroke-color: #fff;
-
-  /* card */
   --card-title-weight: 700;
   --card-text-weight: 400;
-
-  /* button */
   --button-text-color: #fff;
 }
 
@@ -17,12 +13,8 @@
   --accent-color: #00cc14;
   --background-image: var(--background-image-dark);
   --watermark-stroke-color: #000;
-
-  /* card */
   --card-title-weight: 785;
   --card-text-weight: 465;
-
-  /* button */
   --button-text-color: var(--accent-color);
 }
 
@@ -32,17 +24,16 @@
     --accent-color: #00cc14;
     --background-image: var(--background-image-dark);
     --watermark-stroke-color: #000;
-
-    /* card */
     --card-title-weight: 785;
     --card-text-weight: 465;
-
-    /* button */
     --button-text-color: var(--accent-color);
   }
 }
 
-/* floppy */
-:root.theme-light #card-icon {
+:root.theme-light .floppy-icon {
+  mix-blend-mode: difference;
+}
+
+:root.theme-auto .floppy-icon {
   mix-blend-mode: difference;
 }

@@ -2,9 +2,8 @@
   --background-color: #fff;
   --accent-color: #000;
   --main-font: "Inter var";
-  --accent-font: "PressStart2P";
+  --accent-font: "PressStart2P", fantasy;
 
-  /* backgrounds */
   --background-image-dark: repeating-linear-gradient(
       90deg,
       #000 0px,
@@ -35,25 +34,18 @@
       transparent 2px,
       transparent 4px
     ),
+
     linear-gradient(0deg, #1a1a1a 0.01%, #e7e7e7 100%);
-
+    
   --background-image: var(--background-image-light);
-
-  /* watermark */
   --watermark-stroke-color: #fff;
   --watermark-shadow: -1px -1px 0 var(--watermark-stroke-color),
     1px -1px 0 var(--watermark-stroke-color),
     -1px 1px 0 var(--watermark-stroke-color),
     1px 1px 0 var(--watermark-stroke-color);
-
-  /* card */
   --card-title-weight: 700;
   --card-text-weight: 400;
-
-  /* heart */
   --heart-fill-color: #ff0000;
   --heart-contour-color: var(--accent-color);
-
-  /* button */
   --button-text-color: #fff;
 }
